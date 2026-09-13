@@ -61,7 +61,7 @@ const TechnologyCard = ({
         {/* Add Button */}
         <button
           onClick={() => onAdd(technology)}
-        //   disabled={isAdded}
+          disabled={isAdded}
           className="btn btn-sm w-full mt-2"
         >
           {isAdded ? "Added to Stack" : "Add to Stack"}
