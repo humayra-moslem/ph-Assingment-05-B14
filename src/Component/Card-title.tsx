@@ -9,9 +9,17 @@ const CardTitle = () => {
 
     <h2 className="text-3xl md:text-4xl font-bold">
       Explore the{" "}
-      <span className="text-pink-500">
-        Technologies
-      </span>
+      
+      <span className="
+      bg-gradient-to-r
+      from-[#ff4d3d]
+      via-[#e91e63]
+      to-[#9c27b0]
+      bg-clip-text
+      text-transparent
+    ">
+      Technologies
+    </span>
     </h2>
 
     <p className="text-sm md:text-base text-slate-500 mt-2">
@@ -20,7 +28,7 @@ const CardTitle = () => {
 
   </div>
 
-  {/* cards here */}
+
 
 </section>   
         </div>
