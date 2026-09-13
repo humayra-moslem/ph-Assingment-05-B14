@@ -5,6 +5,7 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Technologies from "./Component/Technology/Technologies";
 import type { Itechtype } from "./Component/types/techtype";
+import Footer from "./Component/Footer";
 
 function App() {
     const techFetch = async():Promise<Itechtype[]>=> {
@@ -28,6 +29,7 @@ function App() {
         autoClose={2000}
         theme="light"
       />
+      <Footer/>
     </>
   )
 }
